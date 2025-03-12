@@ -1,15 +1,17 @@
 TASK 1:
-    Write a script that uses built-in method `get_next_action` and returns only the `Next-Step` from `RegisteredActions`
+    Write a script that uses the built-in method `get_next_action` and returns only the Next-Step from `RegisteredActions`.
 
-Steps to run: 
+Steps to run:
+
+    In `main.py`, set the task variable to desired action.
     
-    1. in main.py set the desierd task variable.
-    2. previous_steps is the action performed for last step.
-    3. outcome_was is the outcome of the last step.
+    `previous_steps` is the action performed in the last step.
+    
+    `outcome_was` is the outcome of the last step.
 
-Script returns AgentOutput as dict(all possible RegisterdActions that can be taken for next action
+The script returns `AgentOutput` as a dictionary (all possible `RegisteredActions` that can be taken for the next action).
 
-P.S you need to update the content of webPage.html If you want to interact with another webpage.
+`P.S.:` You need to update the content of `webPage.html` if you want to interact with another webpage.
 
 TASK 2:
-    Show Input and output in dict format for `get_next_action` method.
+    Show the input and output in dictionary format for the get_next_action method.
